@@ -41,12 +41,30 @@
 
 // .............................................mapping-array-objects-to-li.......................
 
-import RenderList from "./Components/RenderList";
+// import RenderList from "./Components/RenderList";
+
+// export default function App() {
+//   return (
+//     <>
+//       <RenderList />
+//     </>
+//   );
+// }
+
+// ............................................mapping-array-of-objects-to-li......................
+// import ShowPlanets from "./Components/ShowPlanets";
+// const planets = ["Mars", "Venus", "Jupiter", "Earth", "Saturn", "Neptune"];
+
+// export default function App() {
+//   return (
+//     <>
+//       <ShowPlanets arrayOfPlanets={planets} />
+//     </>
+//   );
+// }
+
+// ............................................props-component-architecture.........................
 
 export default function App() {
-  return (
-    <>
-      <RenderList />
-    </>
-  );
+  return <></>;
 }
