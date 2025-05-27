@@ -1,13 +1,13 @@
 // .........................................alert-component.......................................
-// import Alert from "./Components/Alert";
+import Alert from "./Components/Alert";
 
-// export default function App() {
-//   return (
-//     <>
-//       <Alert text="OMG! Something really bad has happened!" />
-//     </>
-//   );
-// }
+export default function App() {
+  return (
+    <>
+      <Alert text="OMG! Something really bad has happened!" />
+    </>
+  );
+}
 
 // ..........................................building-a-layout...........................................
 
@@ -71,4 +71,9 @@
 //   return <Pokedex />;
 // }
 
-// ...........................................
+// ...........................................rendering-from-object..............................
+// import CustomerInformation from "./Components/CustomerInformation";
+
+// export default function App() {
+//   return <CustomerInformation />;
+// }
