@@ -64,7 +64,11 @@
 // }
 
 // ............................................props-component-architecture.........................
+// import Pokedex from "./Components/Pokedex";
+// import "./App.css";
 
-export default function App() {
-  return <></>;
-}
+// export default function App() {
+//   return <Pokedex />;
+// }
+
+// ...........................................
